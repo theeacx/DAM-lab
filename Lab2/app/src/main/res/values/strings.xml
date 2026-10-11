@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab2</string>
+    <string name="increment">Increment</string>
+    <string name="open_second">Open Second Activity</string>
+    <string name="greeting">Hello 1095!</string>
+    <string name="counter">Counter: %1$d</string>
+    <string name="back">Go back to main activity!</string>
+</resources>
