@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">lab3</string>
+    <string name="header">Fav movies application</string>
+    <string name="open_web">Open WEB</string>
+    <string name="hint_title">Movie Title</string>
+    <string name="hint_rating">Movie Rating</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+</resources>
