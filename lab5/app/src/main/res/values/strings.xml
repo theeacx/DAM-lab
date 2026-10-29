@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">My Library</string>
+    <string name="btn_add">Add new Book</string>
+    <string name="btn_delete">Delete checked</string>
+    <string name="empty_list">No books yet. Add a book :)</string>
+    <string name="count_text">Books: %1$d ; checked: %2$d</string>
+    <string name="book_line">%1$s - %2$s</string>
+    <string name="book_sub">%1$s * %2$s * %3$d pages * %4$s * rating: %5$d</string>
+    <string name="read_yes">read</string>
+    <string name="read_no">unread</string>
+    <string name="add_title">Add new Book</string>
+    <string name="header_add">New Book</string>
+    <string name="hint_title">Title</string>
+    <string name="hint_author">Author</string>
+    <string name="btn_Save">Save</string>
+    <string name="err_title">Please input title</string>
+    <string name="err_author">Please input author</string>
+    <string name="msg_added">Book added to collection</string>
+    <string name="label_genre">Genre</string>
+    <string-array name="genres">
+        <item>Fantasy</item>
+        <item>Sci-Fi</item>
+        <item>Thriller</item>
+        <item>Other</item>
+    </string-array>
+    <string name="label_format">Format</string>
+    <string name="paper">Paperback</string>
+    <string name="hard">Hardcover</string>
+    <string name="ebook">Ebook</string>
+    <string name="err_format">Choose a format</string>
+    <string name="label_read">I have read it</string>
+    <string name="label_pages">Pages: %1$d</string>
+    <string name="label_rating">Rating: %1$d/5</string>
+    <string name="msg_read">Marked as read</string>
+    <string name="msg_unread">Marked as unread</string>
+    <string name="menu_about">About</string>
+    <string name="about_title">Library stats</string>
+    <string name="about_total">Total Books</string>
+    <string name="about_read">Read</string>
+    <string name="about_unread">Unread</string>
+    <string name="about_avg">Average Rating</string>
+</resources>
