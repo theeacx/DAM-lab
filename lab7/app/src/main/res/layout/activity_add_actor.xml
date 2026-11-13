@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/main"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    android:padding="16dp"
+
+    tools:context=".AddActorActivity">
+
+
+
+    <EditText
+
+        android:id="@+id/etActorName"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:minHeight="48dp"
+
+        android:inputType="textPersonName"
+
+        android:hint="@string/hint_actor_name" />
+
+
+
+    <EditText
+
+        android:id="@+id/etCitizenship"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:minHeight="48dp"
+
+        android:inputType="text"
+
+        android:hint="@string/hint_citizenship" />
+
+
+
+    <Button
+
+        android:id="@+id/btnBirth"
+
+        style="?attr/materialButtonOutlinedStyle"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="8dp"
+
+        android:text="@string/btn_birth" />
+
+
+
+    <CheckBox
+
+        android:id="@+id/cbFamousForm"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="8dp"
+
+        android:text="@string/label_famous" />
+
+
+
+    <Button
+
+        android:id="@+id/btnSaveActor"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="24dp"
+
+        android:backgroundTint="@color/green"
+
+        android:text="@string/btn_save_actor"
+
+        android:textColor="@color/white" />
+
+</LinearLayout>

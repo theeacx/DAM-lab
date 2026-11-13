@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/main"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    android:padding="16dp"
+
+    tools:context=".ImageDemoActivity">
+
+
+
+    <ImageView
+
+        android:id="@+id/ivDemo"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="0dp"
+
+        android:layout_weight="1"
+
+        android:scaleType="centerCrop"
+
+        android:contentDescription="Downloaded picture" />
+
+
+
+    <TextView
+
+        android:id="@+id/tvStatus"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="8dp"
+
+        android:text="Press a button"
+
+        android:textStyle="bold" />
+
+
+
+    <Button
+
+        android:id="@+id/btnMain"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="1. Main thread" />
+
+
+
+    <Button
+
+        android:id="@+id/btnThread"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="2. Background thread" />
+
+
+
+    <Button
+
+        android:id="@+id/btnGlide"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="3. Glide" />
+
+
+
+    <Button
+
+        android:id="@+id/btnAsync"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="4. AsyncTask (old way)" />
+
+
+
+    <Button
+
+        android:id="@+id/btnTap"
+
+        style="?attr/materialButtonOutlinedStyle"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="Tap me: 0" />
+
+</LinearLayout>

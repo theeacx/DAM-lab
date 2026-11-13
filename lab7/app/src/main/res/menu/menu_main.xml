@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="@string/menu_about"
+        android:id="@+id/action_about"
+        app:showAsAction="never"/>
+    <item android:title="@string/menu_sort" android:id="@+id/action_sort" >
+        <menu >
+            <item android:title="@string/sort_title" android:id="@+id/sort_title" />
+            <item android:title="@string/sort_rating" android:id="@+id/sort_rating" />
+        </menu>
+    </item>
+    <item android:title="@string/menu_movies" android:id="@+id/action_movie" />
+    <item android:title="Demo image" android:id="@+id/action_demo" />
+</menu>
